@@ -12,3 +12,8 @@
     * 切片 `s[::-1]`
     * 赋值 `s[2:8] = [10,20]`
     * `+` `*` 
+5. 数组
+    * `array`当只存数字类型时，替换`list`
+    * `memoryview`
+    * `pickle.dump`
+    * `Numpy` `Scipy`
