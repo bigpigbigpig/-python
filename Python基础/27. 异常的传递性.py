@@ -1,0 +1,1 @@
+def demo1():    try:        print(10 / 0)    except Exception as msg:        print(msg)    return int(input("int: "))def demo2():    return demo1()print(demo2())print('-' * 50)# 如果程序某一行出现了错误，后传递到调用给他的那一行，直到传递到主函数# 可以把捕获的异常放在主程序中# 主动抛出异常

@@ -1,0 +1,1 @@
+# 类是一个特殊的对象# 类在内存中只有一个# 可以指定类对象定义独有的属性和方法 类属性和类方法# 在python中类是一个特殊的对象，类对象在运行时会被加载到内存中class Tool(object):    # 使用赋值语句定义类属性    count = 0 # 这属于类属性    def __init__(self, name):        self.name = name        Tool.count += 1

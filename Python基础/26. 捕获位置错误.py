@@ -1,0 +1,1 @@
+# 如果能遇到知道的错误类型try:    num = 10 / 0except Exception as msg:    print("i am a error: ", msg)else:    print('i am hello world.')finally:    print('i am finally.')print('我好慌，上边的程序出问题了')# else 没有异常时才会执行的代码# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行# finally 无论出现异常，都会被执行
